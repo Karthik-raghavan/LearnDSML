@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dec 22 - Extracting Data using SQL</title>
+    </head>
+    <body>
+
+        <ul>
+            <h3>Revisiting Keys:</h3>
+
+            <li>We should not edit any value in KEY value, we can delete and insert.</li>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>Editable</th>
+                    <th>Null</th>
+                    <th>Duplicate</th>
+                </tr>
+                <tr>
+                    <th>Primary Key</th>
+                    <td>&#x2718;</td>
+                    <td>&#x2718;</td>
+                    <td>&#x2718;</td>
+                </tr>
+                <tr>
+                    <th>Candidate Key</th>
+                    <td>&#x2718;</td>
+                    <td>&#x2718;</td>
+                    <td>&#x2718;</td>
+                </tr>
+                <tr>
+                    <th>Unique Key</th>
+                    <td>&#x2718;</td>
+                    <td>&#x2714;</td>
+                    <td>&#x2718;</td>
+                </tr>
+                <tr>
+                    <th>Foreign Key</th>
+                    <td>&#x2718;</td>
+                    <td>&#x2714;</td>
+                    <td>&#x2714;</td>
+                </tr>
+            </table>
+
+            <li>Unique Key depends on the Tables.</li>
+
+            <h3>Relationships:</h3>
+            <ul>
+                <li>Unidirectional relation - One to One relation.</li>
+                <li>Overall relation - One to One relation.(atmost 1 relation)</li>
+                <li>Unidirectional relation - One to Many relation.</li>
+                <li>Overall relation - One to Many relation.</li>
+                <li>Unidirectional relation - Many to Many relation.</li>
+                <li>Overall relation - Many to Many relation.</li>
+                <li>0,1,Many values in the <abbr>ER</abbr> Entity Relationship</li>
+            </ul>
+            
+            <h3>Date Warehouse:</h3>
+            <h4>Database vs Datawarehouse</h4>
+            <li>Both have tables and both have data.</li>
+            <li>Database will have real time data (Live users).</li>   
+            <li>There are some cases where we dont want real time data (Historical Data). Primary purpose is to do analysis</li>
+            <li>Datawarehouse - If we want to do any kind of analysis. They do a copy of data from Database.</li>
+            <li>Warehouse - Storage. We just move the data on which we want to do some analysis.</li>
+            <li>Warehouse is optimized for data analysis</li>
+            <li>Base is optimized for giving real time data.</li>
+            <li>Amazon Redshift, Big Query</li>
+            <li>Data from different databases can be combined into a single datawarehouse and combine to run some analytics</li>
+            <li>Warehouses can hold more data.</li>
+
+            <h3>Writing SQL Query:</h3>
+            <li>We can have tables without Primary/Candidate Keys</li>
+            <li><q>SELECT column_name FROM folder_name.table_name;</q> to retrieve single column data from datawarehouse.</li>
+            <li><q>SELECT column_name FROM table_name;</q> to retrieve single column data from database(mysql).</li>
+            <li><q>SELECT column1_name,column2_name,column3_name FROM folder_name.table_name;</q> to retrieve multiple column data from datawarehouse.</li>
+            <li><q>SELECT column1_name,column2_name,column3_name FROM table_name;</q> to retrieve multiple column data from database(mysql).</li>
+            <li><q>SELECT * FROM folder_name.table_name;</q> to retrieve all columns data from datawarehouse.</li>
+            <li><q>SELECT * FROM table_name;</q> to retrieve all columns data from database(mysql).</li>
+            <li># for comments in Big Query</li>
+            <li>/**/ for comments in mysql</li>
+            <li>Columns can be repeated in SQL Queries.</li>
+        </ul>
+
+    </body>
+</html>

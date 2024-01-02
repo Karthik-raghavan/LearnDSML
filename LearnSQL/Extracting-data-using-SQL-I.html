@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dec 20 - Extracting Data using SQL</title>
+    </head>
+    <body>
+
+        <ul>
+            <h4>Revisiting Datatypes</h4>
+            <li>Only in the case if division, there are times when the resulting number is float. </li>
+
+            <h4>Boolean:</h4>
+            <li>True or False values.</li>
+            <li>These words are also Keywords.</li>
+            <li>There will be no quotation marks on True or False</li>
+            <li>True/TRUE/true are all valid.</li>
+
+            <h4>String - Text Data:</h4>
+            <li><strong>CHAR</strong> - Allocates exactly the exact length provided. Memory wastage is there.</li>
+            <li><strong>VARCHAR</strong> - Reserves only the required length. No memory wastage.</li>
+            <li>CHAR vs VARCHAR - CHAR is better than VARCHAR because of performance aspectss.</li>
+            <li>If we clearly know, how many characters a string is going to take, then use CHAR.</li>
+        </ul>
+
+        <ul>
+            <li><em><strong>KEYWORDS</strong></em> - Words which SQL already understands.</li>   
+            <li>These words have special meaning.</li>
+            <li>Example - SELECT, FROM</li>   
+            <li>In SQL, Keywords are not case sensitive.(meaning we can use lower case letters.)</li>
+
+        <h3>Keys in SQL:</h3>
+
+        <li><strong><em>PRIMARY KEY</em></em></strong>-Value that helps us unlock one row at a time.</li>
+        <li>There should be only 1 Primary Key.</li>
+        <li><strong>NULL VALUES</strong> are not values, it is the absence/missing of values. NULL Values are not a unique Category.</li>
+        <li>PRIMARY KEYS are UNIQUE, NOT NULL.</li>
+        <li><strong>UNIQUE KEYS</strong> will have NULL Values but all of them are Unique(Non Repeating).</li>
+        <li>PRIMARY vs UNIQUE - Primary will not have missing values but Unique can have unique values.</li>
+        <li>We should not compare Null Values.</li>
+        <li><strong>CANDIDATE KEYS</strong>-If there are multiple KEYS which can be PRIMARY KEYS, They are all called as CANDIDATE KEYS and The key which is chosen as PRIMARY KEY is a choice and do not have any conditions.</li>
+        <li><strong>FOREIGN KEY</strong> A key which is a Primary key of another table which is used in the current table.</li>
+        <li>Foreign Keys can be Duplicate and has to be in reference to the Primary Key.</li>
+        <li>Foreign keys must be of the same data type as the primary key they reference.</li>
+        <li>Foreign keys can also have missing values.</li>
+        <li>Foreign keys are optional.</li>
+        <li>Multiple Foreign keys are also possible.</li>
+
+
+        <h3>Entity:</h3>
+
+        <li><strong>Entities:</strong>Every row represents a unique row called Entity(Name of the table).</li>
+
+        <li>Types of Relationship</li>
+            <ul>
+                <li>One to One Relationships</li>
+                <li>One to Many Relationships</li>
+                <li>One to One Relationships</li>
+            </ul>
+        </ul>
+
+    </body>
+</html>

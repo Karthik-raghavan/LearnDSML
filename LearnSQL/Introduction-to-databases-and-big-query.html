@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dec 18 - Intro to Databases & BigQuery Setup</title>
+    </head>
+    <body>
+        
+        <p><a href="https://airlock-on-edge.woolf.university/?url=https%3A%2F%2Fcontent.interviewbit.com%2Fresearch-papers%2FCommon%2520Core%2520Tools_1.pdf&resourceId=bcbb676e-0e91-4e08-a610-9616ec1b2305&studentId=83e6f89b-f862-4cc5-b6a9-1a16e92a4e34&token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjgzZTZmODliLWY4NjItNGNjNS1iNmE5LTFhMTZlOTJhNGUzNCIsImlzcyI6InVybjpXb29sZlVuaXZlcnNpdHk6c2VydmVyL3NlcnZpY2UvYWNjZXNzIiwiaXNWZXJpZmllZCI6dHJ1ZSwia2luZCI6Im9hdXRoIiwib3JnIjp7Imdyb3VwcyI6W10sImlkIjoiOWIxN2Y1Y2UtMTA3OC00ZmRmLWFlYzAtMDJiZjRlY2ZiMGE2In0sInNjb3BlIjoiKiJ9.WwaidargH0mu0Oo1supf8H1EjE1wewzSQpt3ksAV2Qc" target="_blank">Research Paper</a></p>
+        <p><a href="https://www.linkedin.com/in/1nischalshetty/">Nischal Shetty</a></p>
+
+        <ul>
+            <li>Data - Collection of Raw Information(Both Meaningful and Non Meaningful Data).</li>
+            <li>Text, Audio, Image, Video, Signal are also considered as data.</li>
+            <li>Types of Data - Structured and Unstructured</li>
+            <li>Structured Data - Mostly in Tabular form, They are easy to store and access data. Tabular Data. SQL will be used here.</li>
+            <li>UnStructured Data - These are not easy to store and access. Mostly Video, Images, Audio. Artificial Intelligence or Human to verify.</li>
+            <li>Database - Collection of Data stored in computers is what we usually refer. Data in government registers is also considered database.</li>
+            <li><em><strong>Definition of database - A collection of related data stored on computing systems.</strong></em></li>
+            <li>In the database table, data types describe the kind of data that it can contain.</li>
+            <li>Spreadsheet vs Database Management Systems</li>
+            <ul>
+                <li>
+                    Scalability - To increase the volume of data. There are a finite rows and columns in spreadsheet.
+                </li>
+                <li>
+                    Performance
+                </li>
+                <li>
+                    Data integrity - Data Manipulation / Overwriting should not be done. It should only be changed by the owners themselves.
+                </li>
+                <li>
+                    Concurrent Access - Multiple people try to access the system.
+                </li>
+                <li>
+                    Security - Others should not be able to see others profile.
+                </li>
+            </ul>
+            <li>As Scalability increased, Performance takes a hit. These 2 are trade-offs.</li>
+            <li>Database Manager >>> (Database User >> UI >> Program >> DataBase) also (Database User << UI << Program  << DataBase) [Multiple users can access their own accounts/information.]</li>
+            <li><em><strong>Database Manager</strong></em> - program which helps in storing and accessing data. Network plays a major role. This all is called Datbase Management System</li>
+            <li>If DBMS helps in scaling very high data without losing performance when concurrent user use the system along with Security and Data integrity.</li>
+            <li>Data, Data Languages, Data Manager are all components of DBMS.</li>
+            <li>Managing stored data, Data Manipulation, Security of stored data are all primary functions of the DBMS.</li>
+            <li>Tabular Data, Tree(or)Heirarchy structured files are called <em><strong>Structured Data</strong></em></li>
+            <li>Tree(or)Heirarchy are faster than Tabular for searching data. Tabular data goes in sequential data.</li>
+            <li><em><strong>Relational Database(RDBMS)</strong></em>-has Tabular data.</li>
+            <li>Examples of DBMS</li>
+                <table border="1">
+                    <tr>
+                        <th>Structured Data</th>
+                        <th>UnStructured Data</th>
+                    </tr>
+                    <tr>
+                        <th>SQL Based</th>
+                        <th>NoSQL Based</th>
+                    </tr>
+                    <tr>
+                        <td>Oracle Database</td>
+                        <td>MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft SQL Server</td>
+                        <td>Cassandra</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                    </tr>
+                </table>
+            <li><em><strong>Big Query(Google), Azure Synapse Analytics(Azure), Amazon Redshift(AWS)</strong></em> is a DataWarehouse.</li>
+            
+            
+            <h3>DataTypes in SQL:</h3>
+            
+            <li>String - Text Data</li>
+            <li>Integer - Numeric</li>
+            <li>Float/Decimal - Numeric</li>
+            <li>Datetime</li>
+
+            <h4>String:</h4>
+            <li>Anything enclosed within single or double quotes are String datatype in SQL.</li>
+            <li>If we try to add 2 strings, the result is a concatenated string. Ex '1'+'1'='11' so numerical computation is not possible, hence we have seperate datatype as numeric for computations.</li>
+            <li>The problem with String is, SQL does not know the space needed to allocated. Example - title column from IMDB dataset.</li>
+
+            <h4>Numeric:</h4>
+            <li>Another datatype for performing computations.</li>
+            <li>We can convert intger to floating number, we can and vise versa is possible but we will lose data.</li>
+            <li>Difference between Floating and Decimal is Decimal values take more memory/space in some Languages.</li>
+
+            <h4>DateTime:</h4>
+            <li>2022-05-09 is understood as datatime by humans, but sql may treat it as a numeric value and perform computation to give value as 2008. So we have different datatype for datetime.</li>
+            <li>We use quotes in order to avoid the confusion of date as numeric.</li>
+            <li>In order to differentiate between a string and a datetime, we have to update in schema(blueprint of a table).</li>
+
+        </ul>
+
+
+    </body>
+</html>
