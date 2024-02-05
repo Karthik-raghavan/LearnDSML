@@ -1,0 +1,45 @@
+# Date and Time Functions
+# TIME SERIES ANALYSIS
+
+# "yyyy-mm-dd HH:MM:SS.Milliseconds"
+
+# BIG QUERY CODE
+# https://cloud.google.com/bigquery/docs/reference/standard-sql/datetime_functions#function_list
+
+# Getting Current Date and Time
+
+SELECT CURRENT_DATE();
+
+#SELECT CURRENT_TIME("+5:30");
+
+SELECT CURRENT_DATETIME("+5:30");
+
+# Extract Current Date and Time
+
+#SELECT EXTRACT(DATE FROM CURRENT_DATETIME("+5:30"))
+
+# QUARTER
+
+SELECT EXTRACT(QUARTER FROM CURRENT_DATETIME("+5:30"))
+
+# WEEK DAY
+
+#SELECT EXTRACT(WEEK FROM CURRENT_DATETIME("+5:30"));
+
+# ADDING OR SUBTRACTING DATE 
+
+# CAN WE FIND THE DATE WHICH IS EXACTLY 3 MONTHS BEFORE TODAY
+
+#SELECT DATE_SUB("2024-02-05", INTERVAL 3 MONTH);
+
+# SELECT DATE_SUB("2024-02-05", INTERVAL 3 MONTH) AS `3 Months Before`,
+#  DATE_ADD("2024-02-05", INTERVAL 3 MONTH) AS `3 Months After`;
+
+
+# SELECT DATE_SUB("2024-02-05", INTERVAL 3 MONTH) AS `3 Months Before`,
+#  DATE_ADD("2024-02-05", INTERVAL 3 MONTH) AS `3 Months After`,
+#  DATE_ADD("2024-02-05", INTERVAL 1 WEEK) AS `1 Week After`;
+
+#SELECT 
+#  DATE_ADD("2024-02-05", INTERVAL 6 MONTH) AS `6 Months After`,
+#  DATE_ADD("2024-02-05", INTERVAL 180 DAY) AS `180 Days After`;
