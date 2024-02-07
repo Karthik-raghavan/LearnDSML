@@ -1,0 +1,7 @@
+employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id
+100,Steven,King,SKING,515.123.4567,6/17/1987,AD_PRES,25000,,,90
+101,Neena,Kochhar,NKOCHHAR,515.123.4568,9/21/1989,AD_VP,17000,,100,90
+102,Lex,De Haan,LDEHAAN,515.123.4569,1/13/1993,AD_VP,17000,,100,90
+103,Alexander,Hunoid,AHUNOLD,590.423.4567,1/3/1990,IT_PROG,9000,,102,60
+104,Bruce,Ernst,BERNIST,590.423.4568,5/21/1991,IT_PROG,6000,,103,60
+105,David,Austin,DAUSTIN,590.423.4569,6/25/1997,IT_PROG,4800,,103,60
