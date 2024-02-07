@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id
+109,Daniel,Faviel,Dfaviel,515.124.4169,1994-08-16,FI_ACCOUNT,9000,,108,100
+110,John,Chen,Jchen,515.124.4269,1997-09-28,FI_ACCOUNT,8200,,108,100
+111,Ismael,Sciarra,Isciarra,515.124.4369,1997-09-30,FI_ACCOUNT,7700,,108,100
+112,Jose Manuel,Urman,Jose Murman,515.124.4469,1998-03-07,FI_ACCOUNT,7800,,108,100
+113,Luis,Popp,Lpopp,515.124.4567,1999-12-07,FI_ACCOUNT,6900,,108,100
+115,Alexander,Khoo,Akhoo,515.127.4562,1995-05-18,PU_CLERK,3100,,114,30
+116,Shelil,Baida,Sbaida,515.127.4563,1997-12-24,PU_CLERK,2900,,114,30
+117,Sigal,Tobias,Stobias,515.127.4564,1997-07-24,PU_CLERK,2800,,114,30
+118,Guy,Himuro,Ghimuro,515.127.4565,1998-11-15,PU_CLERK,2600,,114,30
+119,Karen,Colmenares,Kcolmenares,515.127.4566,1999-08-10,PU_CLERK,2500,,114,30

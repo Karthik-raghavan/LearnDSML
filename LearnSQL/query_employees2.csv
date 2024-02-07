@@ -1,0 +1,7 @@
+employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id
+114,Den,Raphaely,DRAPHAEL,,,PU_MAN,,,,30
+118,Guy,Himuro,,,,PU_CLERK,,,,30
+122,Payam,Kaufling,,,,ST_MAN,,,,50
+176,Jonathan ,Taylor,,,,SA_REP,,,,80
+202,Pat,Fay,,,,MK_REP,,,,20
+203,Susan,Mavrie,,,,HR_REP,,,,40

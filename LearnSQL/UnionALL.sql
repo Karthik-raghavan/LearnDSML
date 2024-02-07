@@ -1,0 +1,11 @@
+WITH `days` AS 
+(
+(SELECT '2022-04-12' AS `day`)
+UNION ALL
+(SELECT '2021-08-09')
+UNION ALL
+(SELECT '2020-06-26')
+)
+
+SELECT *
+FROM days;
