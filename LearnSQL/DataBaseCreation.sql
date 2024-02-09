@@ -1,0 +1,3 @@
+# DDL
+
+CREATE DATABASE dec23_DB;
