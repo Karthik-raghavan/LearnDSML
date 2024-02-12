@@ -1,0 +1,33 @@
+
+*.csv
+*.xlsx
+BusinessCases/SQL/SQLonRetailer/Business Case on RetailerSQL.docx
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/CheckNull-customer_city.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/CheckNull-customer_id.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/CheckNull-customer_state.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/CheckNull-customer_unique_id.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/CheckNull-customer_zip_code_prefix.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/ColumnsMetadataQuery-customers.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/First5RowsQuery-customers.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/GroupCustomers-customer_cityQuery.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/GroupCustomers-customer_idQuery.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/GroupCustomers-customer_stateQuery.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/GroupCustomers-customer_unique_idQuery.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/GroupCustomers-customer_zip_code_prefixQuery.sql
+BusinessCases/SQL/SQLonRetailer/queries/customers_queries/ViewCustomersDatasetQuery-customers.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/CheckNull-geolocation_city.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/CheckNull-geolocation_lat.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/CheckNull-geolocation_lng.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/CheckNull-geolocation_state.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/CheckNull-geolocation_zip_code_prefix.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/ColumnsMetadataQuery-geolocation.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/First5RowsQuery-geolocation.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/GroupGeolocation-geolocation_city.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/GroupGeolocation-geolocation_lat.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/GroupGeolocation-geolocation_lng.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/GroupGeolocation-geolocation_state.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/GroupGeolocation-geolocation_zip_code_prefix.sql
+BusinessCases/SQL/SQLonRetailer/queries/geolocation_queries/ViewGeolocationDatasetQuery-geolocation.sql
+BusinessCases/SQL/SQLonRetailer/queries/TablesMetadataQuery-retail_dataset.sql
+BusinessCases/SQL/SQLonRetailer/Target SQL Answers.docx
+BusinessCases/SQL/SQLonRetailer/BC-Analyze-Retail-Company-using-SQL/
