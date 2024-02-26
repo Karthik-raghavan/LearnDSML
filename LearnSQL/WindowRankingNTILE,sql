@@ -1,0 +1,4 @@
+SELECT *, NTILE(3) OVER(ORDER BY Quantity ASC)
+FROM `learnhub-414701.practiceSQL.OrderDetails`
+WHERE ProductID = 1
+ORDER BY Quantity ASC
