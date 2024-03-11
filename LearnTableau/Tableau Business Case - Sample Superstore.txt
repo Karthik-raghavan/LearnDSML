@@ -8,7 +8,7 @@ Tableau Business Case - Sample Superstore - Category Sales Analysis Dashboard
 6. Show relative percentage of Sales by Region for the year 2017
 7. Find and analyze the distribution of number of quantity sold on the basis of bins
 
-Day 2
+Day 3
 
 8. Display Sales for each Category along with each sub category by region for all years in a tabular format
 9. Display Sales and Profit for each sub category by region for all years
@@ -24,3 +24,78 @@ Set can only be created on dimensions not measures1
 
 12. Find the top 5 product subcategories by sales
 13. Find the top customers by Sales but with low profit
+
+Day 4
+
+14. Display Total Sales for each category by Region
+15. Find and Display order ids that have high sales and high profit values
+16. Find and Display sub categories that have high sales and High Profit
+17. Compare sales and profit for each category in a single plot
+18. Compare low discount and high profit for each sub category in a single plot
+	Measure with dual scale - dual axis
+
+-->Covered the major types of charts
+
+
+Filters
+
+Live vs Extract Filters
+
+> Live in Premium version only.
+> TP has Extract filter only.
+> Filters are like WHERE in SQL.
+
+> Context Filter
+
+19. Find the top 10 states in the west region with highest sales.
+20. Show Ship Mode and Sub category w.r.t Profit where SC excludes Labels and Storage
+
+>> Filters Execution order
+
+Extract From Source > Data Source Filters > Context Filters > Dimension Filter > Measure Filter > Table Calculation Filter
+
+Day 5
+
+Calculated Fields
+
+21. Find the average cost of each subcategory
+cost = sales - profit
+
+22. Find Profit Ratio for each sub category
+P.R = SUM(Profit) / SUM(Sales)
+
+Level of Detail Calculation
+	more columns more granularity
+
+* Parameter
+	- more interactive
+	
+23. Allow users to select the field against which they want to visualize sale values
+
+Data Granularity
+
+> Level if Detail (LOD)
+> Granularity - How detailed our data is
+> The more detailed the data is, the higher the Granularity is
+
+Fixed Include and Exclude Type Calculations
+
+24. Find the percentage sales contribution of each subcategory to the total sales of each category - FIXED
+25. Find the difference between total sale for each region and average sales per customer for each region - INCLUDE
+26. Find the difference between sales for each region by month and total sales for each month - EXCLUDE
+
+
+Day 6 
+
+Calculations
+Reference Lines
+Trend Lines
+
+* Table Calculations
+	Direction
+	Scope
+
+27. Find the % of the total sales each month for each year
+28. % of total sales across different categories for each quarter of the given year
+
+Tooltips --> 

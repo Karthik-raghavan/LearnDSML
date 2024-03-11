@@ -1,1 +1,0 @@
-DROP DATABASE dec23_db;
